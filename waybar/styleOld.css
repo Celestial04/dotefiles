@@ -1,0 +1,103 @@
+* {
+  font-size: 20px; /* texte petit et mignon */
+  font-weight: 500;
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+}
+
+window#waybar {
+  background: #ffaadd; /*rgba(25, 25, 25, 0.7); fond semi-transparent */
+  color: #ffffff;
+  border-radius: 12px;
+  margin: 4px 6px;
+  padding: 2px 10px; /* ↓ augmente pour une barre plus haute */
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* 🌷 Modules généraux */
+#workspaces button {
+  background: transparent;
+  color: #cccccc;
+  padding: 2px 6px;
+  margin: 0 2px;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+
+#workspaces button.active {
+  background: rgba(255, 192, 203, 0.3); /* rose pastel actif 🌸 */
+  color: white;
+}
+
+#workspaces button:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+}
+
+/* 💻 CPU */
+#cpu {
+  color: #400b08;
+  padding: 0 6px;
+}
+
+/* 🧠 Mémoire */
+#memory {
+  color: #ffc6ff;
+  padding: 0 6px;
+}
+
+/* 🔥 Température */
+#temperature {
+  color: #ff9a76;
+  padding: 0 6px;
+}
+
+/* 📶 Réseau */
+#network {
+  color: #a6e3a1;
+  padding: 0 6px;
+}
+
+/* 🔊 Audio */
+#pulseaudio {
+  color: #b4befe;
+  padding: 0 6px;
+}
+
+/* 🔋 Batterie */
+#battery {
+  color: #f9e2af;
+  padding: 0 6px;
+}
+
+/* ⏰ Horloge */
+#clock {
+  color: #ffd1dc;
+  font-weight: 600;
+  padding: 0 10px;
+}
+
+/* 🍰 Icônes du tray */
+#tray {
+  padding: 0 6px;
+}
+
+/* 💫 Survol (hover) */
+#cpu:hover,
+#memory:hover,
+#temperature:hover,
+#network:hover,
+#pulseaudio:hover,
+#battery:hover,
+#clock:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+}
+
+/* 🌈 Animation d’apparition douce */
+window#waybar {
+  animation: fadeIn 0.4s ease;
+}

@@ -1,0 +1,5 @@
+#entry:selected{border: 1px solid #ffaadd}
+#entry:hover{border:;background-color:aqua;}
+#window{background-color:#252525;color:#ffaadd;}
+#input{background-color:#252525;color:#ffaadd;}
+*{background-color:#252525;color:#ffaadd;}

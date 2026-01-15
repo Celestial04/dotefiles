@@ -1,0 +1,54 @@
+* {
+  /* global */
+  background: #282828;
+  foreground: #ebdbb2;
+  border: 2px;
+  border-color: #458588;
+  padding: 6px;
+  spacing: 6px;
+  font: "Iosevka 11";
+}
+
+window {
+  width: 50%;        /* percentage of screen */
+  children: [mainbox];
+}
+
+mainbox {
+  orientation: vertical;
+  children: [inputbar, listview];
+}
+
+inputbar {
+  children: [prompt, entry];
+  height: 40;
+}
+
+prompt {
+  padding: 6px;
+  margin: 6px;
+}
+
+entry {
+  padding: 6px;
+}
+
+listview {
+  fixed-height: 0;
+  lines: 10;        /* number of visible lines */
+}
+
+element {
+  padding: 8px;
+  border-radius: 5px;
+}
+
+element selected {
+  background: #458588;
+  foreground: #ffffff;
+}
+
+scrollbar {
+  width: 8px;
+  border-radius: 4px;
+}

@@ -1,0 +1,51 @@
+{
+  "layer": "top",
+  "position": "top",
+
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["cpu", "memory", "network", "pulseaudio", "battery", "custom/brightness", "tray"],
+
+  "font": {
+    "family": "NotoMono Nerd Font"
+  },
+  "clock": {
+    "timezone": "Europe/Paris",
+    "locale": "fr_FR.UTF-8",
+    "interval": 1,
+    "format": "{:%a %d %b · %H:%M:%OS}"
+  },
+
+  "cpu": {
+    "format": " {usage}%",
+    "tooltip": true
+  },
+
+  "memory": {
+    "format": " {used:0.1f}G / {total:0.1f}G",
+    "tooltip": true
+  },
+
+  "network": {
+    "format-wifi": " {essid} ({signalStrength}%) ↓{bandwidthDownBits} ↑{bandwidthUpBits}",
+    "format-ethernet": " eth0 ↓{bandwidthDownBits} ↑{bandwidthUpBits}",
+    "tooltip": true,
+    "on-click": "nm-applet",
+    "interval": 2
+  },
+
+  "pulseaudio": {
+    "format": "🔊 {volume}%"
+  },
+
+  "custom/brightness": {
+     "format": "☀️  {}%",
+     "interval": 5,
+     "exec": "brightnessctl | grep -oP '\\d+(?=%)'"
+   },
+
+  "battery": {
+    "format": "🔋 {capacity}%",
+    "tooltip": true
+  }
+}

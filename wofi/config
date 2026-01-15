@@ -1,0 +1,8 @@
+show=drun
+width=400
+height=600
+allow_images=true
+image_size=24
+font=monospace 12
+prompt=UwU pretty cute girl kawaii T4T love for ever
+style=/home/celeste/.config/wofi/style.css

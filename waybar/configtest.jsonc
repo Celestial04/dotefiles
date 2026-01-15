@@ -1,0 +1,23 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 25,
+    "width": 1280,
+    "font": {
+        "family": "FiraCode Nerd Font",
+        "size": 11
+    },
+    "modules-right": ["network", "clock"],
+    "modules": {
+        "network": {
+            "format": "{ifname}: {ipaddr}",
+            "format-wifi": "  {essid}",
+            "format-ethernet": "  {ipaddr}",
+            "font": "FiraCode Nerd Font"
+        },
+        "clock": {
+            "format": "  {:%Y-%m-%d %H:%M:%S}",
+            "font": "FiraCode Nerd Font"
+        }
+    }
+}
