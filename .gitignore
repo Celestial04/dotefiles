@@ -10,7 +10,7 @@ go
 copyq
 Google
 gtk-3.0
-.ssh
+.ssh/**
 dconf
 session
 kde.org
@@ -32,6 +32,7 @@ discord*/**
 Electron/**
 equibop/**
 go/**
+GIMP*
 Google/**
 gtk-3.0/**
 kde.org/**
