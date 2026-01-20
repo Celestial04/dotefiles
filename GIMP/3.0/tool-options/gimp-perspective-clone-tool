@@ -1,0 +1,13 @@
+# GIMP gimp-perspective-clone-tool options
+
+(foreground
+    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\200\77" 0))
+(brush "2. Hardness 025")
+(dynamics "Pressure Size")
+(pattern "Pine")
+(palette "Historique des couleurs")
+(brush-size 51)
+(brush-spacing 0.050000000000000003)
+(brush-hardness 0.25)
+
+# end of gimp-perspective-clone-tool options
