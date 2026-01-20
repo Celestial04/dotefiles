@@ -1,8 +1,0 @@
-[Added Associations]
-application/pdf=firefox-2.desktop;
-application/vnd.oasis.opendocument.graphics=libreoffice-2.desktop;libreoffice.desktop;
-
-[Default Applications]
-application/pdf=firefox-2.desktop;
-application/vnd.oasis.opendocument.graphics=libreoffice-2.desktop;
-x-scheme-handler/discord=equibop.desktop
